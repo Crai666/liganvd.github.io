@@ -199,6 +199,10 @@ footer{
     .d-none {
         display: block!important;
     }
+    .info-padre p {
+        font-size: 20px;
+        width: 90%;
+    }
 }
 /* MEDIA PARA CELULARES */
 @media (min-width: 576px){

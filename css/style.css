@@ -1,0 +1,261 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url(/imagenes/fondo.png);
+    font-family: 'Rubik', sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* MENU DE NAVEGACION */
+/* LOGO */
+header{
+    background-color: #222223;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu .logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.menu h1 {
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+
+}
+/* MENU DE NAVEGACION */
+/* LISTA */
+nav{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li a{
+    font-size: 30px;
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: violet;
+}
+
+
+
+.menu h1{
+    color: white;
+    font-weight: bold;
+}
+
+
+
+/* INFORMACION */
+.info h1, h2, h3{
+    font-weight: bold;
+    padding-top: 5px;
+}
+.info-padre{
+    color: white;
+    display: flex;
+}
+.info-padre .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info-padre p{
+    font-size: 20px;
+    width: 50%;
+}
+ /* CARRUSEL */
+ .oficiale-padre{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ }
+.mapas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#carouselExampleCaptions{
+    width: 1000px;
+    display: flex;
+}
+/* TEXTO CARRUSEL */
+.mapas h5{
+    background-color: #222223;
+}
+.mapas p a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 10px;
+}
+.mapas p a:hover{
+    background-color: rgb(18, 87, 156) ;
+}
+/* CAMISAS */
+.info-camisa{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.titulos-camisetas{
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 30px;
+}
+/* EQUIPOS */
+.equipos{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(26, 26, 26);
+}
+.equipos img{
+    padding-top: 10px;
+    display: flex;
+    width: 100px;
+}
+/* FOOTER */
+hr{
+    color: white;
+}
+footer{
+    color: white;
+}
+/* @MEDIA */
+/* MEDIA PARA CELULARES */
+@media (min-width: 576px){
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu h1 {
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    img{
+        vertical-align: middle;
+        width: 60px;
+    }
+    nav ul li a {
+        font-size: 22px;
+        padding: 15px;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+    }
+    .equipos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .d-none {
+        display: block!important;
+    }
+}
+/* MEDIA PARA TABLETS */
+@media (min-width: 768px){
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu h1 {
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    img{
+        vertical-align: middle;
+        width: 60px;
+    }
+    nav ul li a {
+        font-size: 22px;
+        padding: 15px;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+    }
+    .equipos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .d-none {
+        display: block!important;
+    }
+}
+/* MEDIA PARA ESCRITORIOS */
+@media (min-width: 992px){
+    header{
+        background-color: #222223;
+        position: sticky;
+        top: 0px;
+        z-index: 1;
+    }
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .menu .logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu h1 {
+        color: white;
+        font-weight: bold;
+        padding: 20px;
+        font-size: 30px;
+    }
+    .equipos {
+        display: grid;
+        grid-template-columns: 2fr 2fr 1fr;
+    }
+    nav ul li a{
+        font-size: 30px;
+        padding: 20px;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+    }
+    img {
+        vertical-align: middle;
+        width: 100px;
+    }
+    nav {
+        display: flex;
+        align-items: center;
+        padding-top: 24px;
+    }
+}

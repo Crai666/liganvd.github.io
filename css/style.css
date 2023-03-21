@@ -151,6 +151,52 @@ footer{
 }
 /* @MEDIA */
 /* MEDIA PARA CELULARES */
+@media (max-width: 356px){
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu .logo {
+        display: flex;
+        align-items: center;
+    }
+    img{
+        vertical-align: middle;
+        width: 60px;
+    }
+    nav ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+    nav ul li a {
+        font-size: 12px;
+        padding: 11px;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+    }
+    .card {
+        display: flex;
+        font-weight: bold;
+        color: white;
+        background-color: rgb(26, 26, 26);
+        align-items: center;
+        flex-direction: column;
+    }
+    .card-body {
+        flex: 1 1 auto;
+        padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+        color: var(--bs-card-color);
+        font-size: 13px;
+    }
+    .equipos {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-left: 30px;
+    }
+}
 @media (min-width: 576px){
     .menu {
         display: flex;

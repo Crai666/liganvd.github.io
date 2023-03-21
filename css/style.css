@@ -196,6 +196,9 @@ footer{
         grid-template-columns: 1fr;
         padding-left: 30px;
     }
+    .d-none {
+        display: block!important;
+    }
 }
 /* MEDIA PARA CELULARES */
 @media (min-width: 576px){

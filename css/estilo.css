@@ -1,0 +1,194 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-image: url(../imagenes/fondo.png);
+  font-family: "Rubik", sans-serif;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header {
+  background-color: #222223;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+.menu .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.menu h1 {
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li a {
+  font-size: 30px;
+  padding: 20px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: violet;
+}
+
+h2 {
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+h3 {
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.info-padre {
+  color: white;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.info-padre .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.info-padre .info h1 {
+  font-weight: bold;
+  padding-top: 5px;
+}
+.info-padre .info p {
+  font-size: 20px;
+  width: 50%;
+  text-align: center;
+}
+.info-padre .info .disboardfoto {
+  filter: blur(5px);
+}
+.info-padre .info a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+.info-padre .info a:hover {
+  color: cornflowerblue;
+}
+.info-padre .info .discordlink {
+  text-decoration: underline;
+}
+.info-padre .info .disboard .click {
+  background-color: darkblue;
+  text-decoration: none;
+  position: relative;
+  bottom: 250px;
+  left: 250px;
+}
+
+.info-camisa {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.titulos-camisetas {
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+.equipos {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+}
+.equipos img {
+  padding-top: 10px;
+  display: flex;
+  width: 100px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(26, 26, 26);
+}
+
+.mapas {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.mapas h5 {
+  background-color: #222223;
+}
+.mapas p a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  background-color: dodgerblue;
+  border-radius: 10px;
+}
+.mapas p a:hover {
+  background-color: rgb(18, 87, 156);
+}
+
+#carouselExampleCaptions {
+  width: 1000px;
+  display: flex;
+}
+
+hr, footer {
+  color: white;
+}
+
+footer img {
+  width: 30px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+/* Escritorios */
+@media (max-width: 1920px) {
+  nav ul li a {
+    font-size: 30px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+}
+.info-padre .info .discordfoto {
+  width: 900px;
+}
+.info-padre .info .disboardfoto {
+  width: 900px;
+}
+
+/*# sourceMappingURL=estilo.css.map */

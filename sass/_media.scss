@@ -1,4 +1,80 @@
+@media(max-width: 500px){
+    .menu {
+        .logo {
+            img{
+                width: 50px;
+            }
+            .titulo{
+                h1{
+                    font-size: 20px;
+                    height: 0px;
+                }
+            }
+        }
+            nav {
+                ul {
+                    flex-direction: column;
+                    li{
+                        height: 20px;
+                        a {
+                            font-size: 15px;
+                            padding: 5px;
+                            font-weight: bold;
+                            color: white;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+    }
+    .info-padre{
+        .info{
+            p{
+                text-align:center;
+            }
+        }
+    }
 
+}
+@media (max-width: 800px){
+    .menu {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+            nav {
+                justify-content: center;
+                ul {
+                    list-style: none;
+                    display: flex;
+
+                    align-items: center;
+                    li{
+                        display: inline-block;
+                        a {
+                            font-size: 15px;
+                            padding: 10px;
+                            font-weight: bold;
+                            color: white;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+    }
+    .equipos {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        gap: 1rem;
+    }
+    .espacio{
+        display: none;
+    }
+}
 
 
 /* Escritorios */
@@ -20,10 +96,12 @@
 .info-padre{
     .info{
         .discordfoto{
-            width: 900px;
+            width: 100%;
+            max-width: 900px;
         }
         .disboardfoto{
-            width: 900px;
+            width: 100%;
+            max-width: 900px;
         }
     }
 }

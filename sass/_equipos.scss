@@ -1,6 +1,8 @@
 .equipos {
 	display: grid;
-	grid-template-columns: 2fr 2fr 1fr;
+	grid-template-columns: 2fr 2fr 2fr;
+	gap: 1rem;
+
 	img {
 		padding-top: 10px;
 		display: flex;

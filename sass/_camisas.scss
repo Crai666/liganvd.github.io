@@ -1,0 +1,13 @@
+@mixin camisas{
+	font-weight: bold;
+	font-size: 30px;
+	padding-top: 30px;
+}
+.info-camisa {
+	color: $color_1;
+	display: flex;
+	justify-content: center;
+}
+.titulos-camisetas {
+	@include camisas;
+}

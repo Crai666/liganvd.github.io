@@ -7,7 +7,7 @@
 Instale el programa de [Visual Studio Code](https://code.visualstudio.com/Download) para trabajar en mi proyecto.
 
 ```
-Dentro use lenguajes de programacion como html y css.
+Dentro use lenguajes de programacion como html, css y sass.
 ```
 
 ## Pagina

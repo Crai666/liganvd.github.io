@@ -1,0 +1,17 @@
+.equipos {
+	display: grid;
+	grid-template-columns: 2fr 2fr 1fr;
+	img {
+		padding-top: 10px;
+		display: flex;
+		width: 100px;
+	}
+}
+.card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	color: $color_1;
+	background-color: $background-color_4;
+}

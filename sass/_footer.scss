@@ -1,0 +1,11 @@
+hr {
+	color: $color_1;
+}
+footer {
+	@extend hr;
+	img{
+		width: 30px;
+		padding-bottom: 10px;
+		padding-left: 10px;
+	}
+}
